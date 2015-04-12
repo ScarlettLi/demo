@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.li.scarlett.myapplication.BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView android:id="@+id/name" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment" />
+
+    <TextView android:id="@+id/sd" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment" />
+
+    <Button
+        android:id="@+id/btn_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click me"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+</LinearLayout>
